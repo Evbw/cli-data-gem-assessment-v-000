@@ -21,7 +21,6 @@ class Applist::Apps
     if @@all = []
       self.popular
     else
-      binding.pry
       @@all
     end
   end
